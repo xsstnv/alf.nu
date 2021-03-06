@@ -44,3 +44,22 @@ function escape(s) {
 ```
 \");alert(1)//
 ```
+
+
+
+### JSON
+
+- Task
+
+```
+function escape(s) {
+  s = JSON.stringify(s);
+  return '<script>console.log(' + s + ');</script>';
+}
+```
+
+- Solution
+
+```
+</script><script>alert(1)//
+```
