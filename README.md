@@ -3,12 +3,12 @@
 > alert(1) to win
  
 ## Challenges
-- Warmup
-- Adobe
-- JSON
-- Markdown
-- Skandia
-- JSON2
+- [Warmup](#warmup)
+- [Adobe](#adobe)
+- [JSON](#json)
+- [Markdown](#markdown)
+- [Skandia](#skandia)
+- [JSON2](#json2)
 
 
 ## Warmup
