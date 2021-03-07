@@ -10,19 +10,6 @@
 - [Skandia](#skandia)
 - [JSON2](#json2)
 
-
-## Testing table view
-
-|Challenge|Task|Solution|
-|---------|----|--------|
-|Warmup|```
-function escape(s) {
-  return '<script>console.log("'+s+'");</script>';
-}
-```|```
-",alert(1),"
-```|
-
 ## Warmup
 
 - Task
