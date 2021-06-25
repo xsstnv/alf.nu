@@ -23,10 +23,16 @@ function escape(s) {
 }
 ```
 
-- Solution
+- Input
 
 ```
 ",alert(1),"
+```
+
+- Output
+
+```
+<script>console.log("",alert(1),"");</script>
 ```
 
 ## Adobe
@@ -40,7 +46,7 @@ function escape(s) {
 }
 ```
 
-- Solution
+- Input
 
 ```
 \");alert(1)//
