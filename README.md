@@ -15,7 +15,8 @@
 
 ## Warmup
 
-- Task
+- The code below generates HTML in an unsafe way. Prove it by calling alert(1).
+
 
 ```
 function escape(s) {
@@ -37,7 +38,7 @@ function escape(s) {
 
 ## Adobe
 
-- Task
+- The code below generates HTML in an unsafe way. Prove it by calling alert(1).
 
 ```
 function escape(s) {
@@ -54,7 +55,7 @@ function escape(s) {
 
 ## JSON
 
-- Task
+- The code below generates HTML in an unsafe way. Prove it by calling alert(1).
 
 ```
 function escape(s) {
@@ -63,7 +64,7 @@ function escape(s) {
 }
 ```
 
-- Solution
+- Input
 
 ```
 </script><script>alert(1)//
@@ -71,7 +72,7 @@ function escape(s) {
 
 ## Markdown
 
-- Task
+- The code below generates HTML in an unsafe way. Prove it by calling alert(1).
 
 ```
 function escape(s) {
@@ -84,7 +85,7 @@ function escape(s) {
 }
 ```
 
-- Solution
+- Input
 
 ```
 [[x|http://onerror=javascript:alert(1)//]]
@@ -92,7 +93,7 @@ function escape(s) {
 
 ## DOM
 
-- Task
+- The code below generates HTML in an unsafe way. Prove it by calling alert(1).
 
 ```
 function escape(s) {
@@ -121,7 +122,7 @@ Comment#--><img src onerror=alert(1)
 
 ## Skandia
 
-- Task
+- The code below generates HTML in an unsafe way. Prove it by calling alert(1).
 
 ```
 function escape(s) {
@@ -137,7 +138,7 @@ function escape(s) {
 
 ## JSON2
 
-- Task
+- The code below generates HTML in an unsafe way. Prove it by calling alert(1).
 
 ```
 function escape(s) {
@@ -155,7 +156,7 @@ function escape(s) {
 
 ## Well
 
-- Task
+- The code below generates HTML in an unsafe way. Prove it by calling alert(1).
 
 ```
 function escape(s) {
@@ -175,7 +176,7 @@ function escape(s) {
 
 ## No
 
-- Task
+- The code below generates HTML in an unsafe way. Prove it by calling alert(1).
 
 ```
 // submitted by Stephen Leppik
